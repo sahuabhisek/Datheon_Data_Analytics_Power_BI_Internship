@@ -22,7 +22,19 @@ Power BI
 Data Visualization
 
 Business Insights
+I completed a Telco Customer Churn Analysis project using Python, Pandas, and Power BI.
 
+First, I loaded the telecom customer dataset and performed data cleaning. I checked missing values, duplicate records, and data types. I converted the TotalCharges column into a numeric format and created a binary churn flag.
+
+Next, I calculated the overall churn rate and analyzed customer churn across different tenure cohorts, contract types, payment methods, and internet services.
+
+I identified high-risk segments, particularly Fiber optic customers without tech support and customers using month-to-month contracts.
+
+I also calculated customer retention curves using the Kaplan–Meier method and developed a logistic regression model to estimate churn risk.
+
+Finally, I used Power BI to design an interactive dashboard with KPI cards, churn analysis visuals, a heatmap, retention analysis, and a high-risk customer list.
+
+The analysis helped identify customer groups that could benefit from targeted retention campaigns and improved customer support.
 Repository Structure
 
 Project files are organized into separate folders for easy navigation.
